@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/015cbe9b3c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>iCode testimonial</title>
+  </head>
+  <body>
+    <!-- main container -->
+    <main
+      class="flex min-h-screen flex-col items-center justify-center bg-blue-100"
+    >
+      <!-- sign up card -->
+      <div class="max-w-sm rounded-md bg-white py-4 px-6" id="sign-up-form">
+        <!-- button -->
+        <div class="mb-4 flex">
+          <button
+            class="fa-solid fa-xmark ml-auto mt-px h-6 w-6 rounded-full bg-zinc-100 text-lg hover:bg-white hover:text-red-800"
+            id="close-btn"
+          >
+            <span class="sr-only">Close</span>
+          </button>
+        </div>
+        <h1 class="mb-2 text-center text-xl font-bold">Sign Up</h1>
+        <h2 class="mx-auto mb-5 max-w-xs text-center text-gray-800">
+          Create an account to unlock all the benefisto easily save, like or
+          submit your favorite content
+        </h2>
+        <div
+          class="flex cursor-pointer items-center justify-start gap-x-2 rounded-md border bg-slate-50 px-4 py-2"
+        >
+          <img src="images/google.webp" class="w-10" alt="" />
+          <p>Sign up with Google</p>
+        </div>
+        <div
+          class="mt-2 flex cursor-pointer items-center justify-start gap-x-2 rounded-md border bg-slate-50 px-4 py-2"
+        >
+          <img src="images/facebook.jpg" class="w-8" alt="" />
+          <p>Sign up with Facebook</p>
+        </div>
+        <div
+          class="mt-2 flex cursor-pointer items-center justify-start gap-x-2 rounded-md border bg-slate-50 px-4 py-2"
+        >
+          <img src="images/twitter.png" class="w-8" alt="" />
+          <p>Sign up with Twitter</p>
+        </div>
+        <div class="mt-6 flex items-start gap-x-1">
+          <input
+            id="link-checkbox"
+            type="checkbox"
+            value=""
+            class="mt-1 h-4 w-4 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+          />
+          <label
+            for="link-checkbox"
+            class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+            >I'm not interested in update about products and services</label
+          >
+        </div>
+        <!-- sign in -->
+        <button
+          class="mx-auto mt-7 block w-max text-center text-cyan-700 hover:font-semibold"
+        >
+          Sign In
+        </button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
